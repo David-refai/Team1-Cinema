@@ -84,3 +84,113 @@
   font-size: 20px;
   margin-bottom: 40px;
 }
+
+.content{
+  background-color: #151515;
+  min-height: calc(100vh - 50px);
+  color: white;
+}
+
+.content-container{
+  padding-left: 30px;
+}
+
+.popular-container{
+  height: 50vh;
+  background-color: tomato;
+  background: linear-gradient(rgba(0,0,0,0),#151515), url('img/ed_header.jpg');
+  background-size: cover;
+}
+
+.popular-container{
+  height: 50vh;
+  padding: 50px;
+  padding-left: 100px;
+}
+
+.popular-title{
+  width: 200px;
+}
+
+.popular-description{
+  width: 520px;
+  color: lightgrey;
+  margin: 30px 0;
+}
+
+.popular-button{
+  background-color: green;
+  color: white;
+  padding: 10px 20px;
+  border-radius: 10%;
+  border: none;
+  outline: none;
+  font-weight: bold;
+}
+
+.movie-list-contrainer{
+  padding: 50px;
+}
+
+.our-movies{
+  margin-bottom: 30px;
+}
+
+.movie-list{
+  display: flex;
+  height: 300px;
+  align-items: center;
+}
+
+.movie-list-item{
+  margin-right: 100px;
+  position: relative;
+}
+
+.movie-list-item-img{
+  width: 400x;
+  height: 330px;
+  object-fit: contain;
+  transition: all 0.5s ease-in-out;
+}
+
+.movie-list-item-title{
+  background-color: #333;
+  padding: 0 10px;
+  font-size: 22px;
+  font-weight: bold;
+  position: absolute;
+  top: 5%;
+  left: 50px;
+  opacity: 0;
+  transition: all 0.5s ease-in-out;
+  margin-left: -8px;
+}
+
+.movie-list-item-description{
+  background-color: #333;
+  font-size: 14px;
+  position: absolute;
+  top: 20%;
+  left: 50px;
+  width: 200px;
+  opacity: 0;
+  transition: all 0.5s ease-in-out;
+  margin-left: -8px;
+}
+
+.movie-list-item-button{
+  background-color: green;
+  color: white;
+  padding: 10px;
+  border-radius: 10px;
+  border: none;
+  outline: none;
+  font-weight: bold;
+  cursor: pointer;
+  bottom: 10px;
+  left: 40px;
+  opacity: 0;
+  transition: all 0.5s ease-in-out;
+  position: absolute;
+}
